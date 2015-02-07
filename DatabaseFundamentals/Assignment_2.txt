@@ -1,0 +1,105 @@
+1. What are "integrity constraints"? List the types of integrity constraints and define each one.
+			Integrity constraints refers to correctness and consistency of stored data
+
+			Domain integrity constraints
+			- The definition of a valid set of values for an attribute ie Data type, length
+
+			Entity integrity constraints
+			- Entity integrity states that the primary keys can't be null, there must be a proper value in the primary key field
+
+			Referential integrity constraints
+			- Referential integrity is specified between tables and it is used to maintian the consistency among rows and the two tables
+
+			Foreign key integrity constraints
+			- Foreign Key integrity contraints has constraints that affect referentia; integrity constraint. It has cascade update related fields and cascade delte related rows.
+
+			Cascade update Related fields: Any time you change the primary key of a row in the primary table, the foreign key values are updated.
+			cascade Delete related rows: Aytime you delte a rtow in the primary table, the matching rows are automatically deleted in the related table.
+
+
+
+
+2. Define the "degree" of a relation. Define the "cardinality" of a relation. What are the three types of minimum cardinality?
+			Degree of relation also known as "Cardinality of a relation"
+			- Degree of relationship means how many of one entity can be related to how many of the others. ie. One to many reltionships
+
+			one-to-one(1:1) - One occurance of an entity relates to only one occurancy in another
+			one-to-many(1:M) - One occurance of an entity relates to many occurances in another entity
+			many-to-many(M:N) - Many occurances in an entity relate to many occurances in another entity
+
+
+
+3. List out and define the relational keys we discussed in class. In the provided ERD, what is the primary key and foreign key(s) in the PurchaseItem relation?
+			Relation Keys:
+			- Logically link tables with keys.
+
+			Super Key:
+			- Is an attribute that uniquely identifies each entity in a table
+
+			Candidate Key;
+			- Is a subset of a super key or the least attribute that uniquely identifies each entity in a table
+
+			Primary Key
+			- Candidate Key selected to uniquely identify all other attribute values in any given row
+
+			Secondary Key
+			- An attribute or combination, used strictly for data retrieval purposes
+			
+			Foreign Key
+			- An Attribute or combination, in one table whose values must match the primary Key (PK) in another table
+
+			Primary key in the PurchaseItem relation
+			- PurchaseItemId
+
+			Foreign Key in the PurchaseItem relation
+			- PurchaseID
+			- ProductID
+
+
+
+4. Define "null." When and why might be want to allow for null values? In the provide ERD, what is an example of an attribute where we might want to allow for null entries?
+			NULL
+			- NULL is an unknown piece of data in a database.
+
+			NULL might be used in instances where the value of data is unknown, it is useful to be used because it shows or represents uncertainity in data and need for correction
+
+			NULL entries in ERD
+			- Vendor
+			- Product
+
+
+
+5. In the provided model, how would you add a Customer Contact relation? What attributes would you include and where/how would you connect the new relation? (Answers will vary).
+
+			CustomerContact
+			PK: CustomerContactID		# This primary key uniquely identifies the customer contact information
+					Email			
+			FK: CustomerID 					# This foreign key relates to the customer table and that comes with customer information
+
+
+
+6. Write a query that returns just the number of customers in New York state (hint: use anaggregate function).
+			SELECT COUNT(CustSTATE, 'New York')
+
+   		FROM tblCUSTOMER;
+
+
+
+7. Write a query that returns the name of the products that are listed as Accessories or
+Electric Guitars.
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
