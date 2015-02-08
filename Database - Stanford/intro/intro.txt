@@ -1,0 +1,40 @@
+Data:
+Data is quantities, characters or symbols on which operations are performed by a computer being stored and transmitted in the form of electric sygnal and recoreded on magnetic, optical or mechanical recording.
+
+Database Management System (DBMS)
+	Massive storage of data
+	Persistent
+	Safe 
+	Multi-user as DBMS has concurency control
+	Convenient - Physical data independency & high level query languages
+	Efficient - handles thousands of queries at a time
+	Reliable - 99.99% reliable
+
+KEY CONCEPTS 
+	- Data model
+	  Set of records, XML, graph
+
+	- Schema versus data
+	  Schema -> Types : Data -> variables
+
+	- Data definition language (DDL)
+	  Setup schema
+
+	- Data manipulation or query language (DML)
+	  Querring and modefying
+
+
+KEY PEOPLE IN DATA
+	- DBMS implementer
+	  Builds the system
+
+	- Database Designer
+	  Establishes schema
+
+	- Database Application developer
+	  Programs that operate on Database
+
+	- Database developer
+	  Loads data and keep database running smothly
+
+KE

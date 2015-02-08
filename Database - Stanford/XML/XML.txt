@@ -1,0 +1,34 @@
+Basic constructs
+	- Tagged elements (nested)
+	- Attributes
+	- Text
+
+Relational Model versus XML
+
+					|		Relational			|		XML
+--------------------------------------------------------------------------------------
+Structure			|		- Uses tables		|		- Hierrachical, trees, graph
+Schema				|		- Fixed in advance	|		- Flexible "Self describing"
+Queries				|		- Simple nice lang	|		- less simple
+Ordering			|		- None Ordering 	|		- Implied
+Implementation		|		- NAtive 			|		- Addon
+
+
+XML Data : DTDs, IDs & IDREFs
+A well formed XML adheres to the following.
+	- Single root element
+	- Matched tags, proper nesting
+	- Unique attributes within elements
+	- A valid XML adheres to basic structural requirements
+		- Document Type Descriptor(DTD)
+		- XML schema(XSD)
+	- Adheres to content specific specification
+
+	+---------+         +------------+
+	| XML Doc |   ==>   | XML Parser |   ==> Parsed XML
+	+---------+         +------------+
+	                   Not well formated
+
+
+
+XML SCHEMA

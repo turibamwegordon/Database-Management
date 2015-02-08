@@ -1,0 +1,18 @@
+Schema = structural description of relations in database
+Instance = actual contents at given point in time
+
+Database = set of named relations (or tables)
+Each relation has a set of named attributes (or columns)
+Each tuple (or row) has a value for each attribute
+Each attribute has a type (or domain)
+
+Schema – structural description of relations in database
+Instance – actual contents at given point in time
+
+NULL – special value for “unknown” or “undefined”
+
+Key – –attribute whose value is unique in each tuple special or set of attributes whose combined values are unique
+
+Creating relations (tables) in SQL
+	- Create Table Student(ID, name, GPA, photo)
+	- Create Table College(name string, state char(2), enrollment integer) 
