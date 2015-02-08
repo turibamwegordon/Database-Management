@@ -1,61 +1,61 @@
 1.	What is meant by following a systematic approach to developing database systems? What are the advantages of doing so?
-			- A systematic approach to developing database systems is a methodical procedure of developing database systems.
+	- A systematic approach to developing database systems is a methodical procedure of developing database systems.
 
-			ADVANTAGES
-			- Effective collaboration as the development system is know by every one on the team
-			- Easy for testing and predicting results on a system
-			- Ensures that reliable results can be created more quickly and, therefore, more economically
-			- Producing reliable results from a systematic approach
+	ADVANTAGES
+	- Effective collaboration as the development system is know by every one on the team
+	- Easy for testing and predicting results on a system
+	- Ensures that reliable results can be created more quickly and, therefore, more economically
+	- Producing reliable results from a systematic approach
 
 
 2. Briefly describe what the Instructor means by "Organize or Die" and the significance of data in
  today's economy.
-			The instructor means that the earlier we start organising and managing data and learn from it the better we are going to be as an organization
+	The instructor means that the earlier we start organising and managing data and learn from it the better we are going to be as an organization
 
 
 
 3. Why is leveraging a database management system preferred over storing critical data in an excel
 spreadsheet?
-			- Database management system have the capacity to increase data integrity, and the ease of reporting and sharing data while with spreedsheets the lack of detailed sorting and querying abilities makes it hard to report and share data
-			- Database management system stores large amounts of raw data while excel spreadsheets store low amounts of data
-			- Database management system is easy to identify errors and make changes easily while spreadsheets has the inability to efficiently identfy errors
-			- Database management system is easier to share and make changes among users to work or change data at the same time while spreadsheets have sharing violations among users wishing to work or change data at the same time
-			- Database management system offers better security to restrict users from accessing privileged information while spreadsheets doesnot offer better user securiyt and priveilages
+	- Database management system have the capacity to increase data integrity, and the ease of reporting and sharing data while with spreedsheets the lack of detailed sorting and querying abilities makes it hard to report and share data
+	- Database management system stores large amounts of raw data while excel spreadsheets store low amounts of data
+	- Database management system is easy to identify errors and make changes easily while spreadsheets has the inability to efficiently identfy errors
+	- Database management system is easier to share and make changes among users to work or change data at the same time while spreadsheets have sharing violations among users wishing to work or change data at the same time
+	- Database management system offers better security to restrict users from accessing privileged information while spreadsheets doesnot offer better user securiyt and priveilages
 
 
 
 4. Why is relational theory considered a significant breakthrough in technology?
-			- Ability to obtain information quickly while eliminating problem with data redudancy
-			- Efficiency in data storage as data is easy to manage and modify later
-			- Efficiency in implementation and very affordable
-			- Scalability as relationship structure allows for large datasets
+	- Ability to obtain information quickly while eliminating problem with data redudancy
+	- Efficiency in data storage as data is easy to manage and modify later
+	- Efficiency in implementation and very affordable
+	- Scalability as relationship structure allows for large datasets
 
 
 5. What are some of the criticisms and features of hierarchical database systems?
-			FEATURES of hierarchical database systems
-			- Ease of data access - Multiple one to many relationships
-			- Structures allows information to be repeated through the parent child relations thus providing very efficient "High-speed" retrieval of information
-			- Data Integrity - Each set comprises of two types of records.- an owner record and a member record and access an owner 
-			- Data Independence - NO member can exist with out an owner. A user must first define the owner record and then a member record. This ensure integrity
+	FEATURES of hierarchical database systems
+	- Ease of data access - Multiple one to many relationships
+	- Structures allows information to be repeated through the parent child relations thus providing very efficient "High-speed" retrieval of information
+	- Data Integrity - Each set comprises of two types of records.- an owner record and a member record and access an owner 
+	- Data Independence - NO member can exist with out an owner. A user must first define the owner record and then a member record. This ensure integrity
 
 
-			CRITICISIMS
-			- Lousy performance with large data collection - Inefficient navigation in addition to bloated data
-			- The structure is simple but inflexible because the relationship is confined to a one-to-many relationship
-			- Very hard to maintain as changing relationships may require physical reorganization of data
-			- complex to add a field to a table as the database management system must create a new table for the larger records
+	CRITICISIMS
+	- Lousy performance with large data collection - Inefficient navigation in addition to bloated data
+	- The structure is simple but inflexible because the relationship is confined to a one-to-many relationship
+	- Very hard to maintain as changing relationships may require physical reorganization of data
+	- complex to add a field to a table as the database management system must create a new table for the larger records
 
 
 6. Describe at least four advantages provided by the Structured Query Language (SQL).
-			- Portable - SQL can be moved from one device to another with out any problems
-			- High Speed - SQL Queries can be used to retrieve large amounts of records from a database quickly and efficiently.
-			- Well Defined Standards Exist - SQL databases use long-established standard, which is being adopted by ANSI & ISO.
-			- Used for relational databases: SQL is widely used for relational databases.
+	- Portable - SQL can be moved from one device to another with out any problems
+	- High Speed - SQL Queries can be used to retrieve large amounts of records from a database quickly and efficiently.
+	- Well Defined Standards Exist - SQL databases use long-established standard, which is being adopted by ANSI & ISO.
+	- Used for relational databases: SQL is widely used for relational databases.
 
 
 7. According to the Instructor, why are database professionals the biggest fish in the ocean of
 technology?
-			- Data is the a great asset that organisations have in todays economy, it is the differentiator, it is the tool that organisations use to gain competitive advantage and the data proffesionals have the ability of learning and answering questions based on data faster than those that do not making them the biggest fish in the ocean
+	- Data is the a great asset that organisations have in todays economy, it is the differentiator, it is the tool that organisations use to gain competitive advantage and the data proffesionals have the ability of learning and answering questions based on data faster than those that do not making them the biggest fish in the ocean
 
 
 
